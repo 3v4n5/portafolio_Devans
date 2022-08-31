@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5e19954.chunk.css",
+    "main.js": "/static/js/main.9e424674.chunk.js",
+    "main.js.map": "/static/js/main.9e424674.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/css/2.27dd871e.chunk.css": "/static/css/2.27dd871e.chunk.css",
+    "static/js/2.b307aef1.chunk.js": "/static/js/2.b307aef1.chunk.js",
+    "static/js/2.b307aef1.chunk.js.map": "/static/js/2.b307aef1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.27dd871e.chunk.css.map": "/static/css/2.27dd871e.chunk.css.map",
+    "static/css/main.b5e19954.chunk.css.map": "/static/css/main.b5e19954.chunk.css.map",
+    "static/js/2.b307aef1.chunk.js.LICENSE.txt": "/static/js/2.b307aef1.chunk.js.LICENSE.txt",
+    "static/media/balletrina.19d55acd.jpg": "/static/media/balletrina.19d55acd.jpg",
+    "static/media/index.css": "/static/media/bg3.e66eaf91.jpg",
+    "static/media/hib.6387c53a.jpg": "/static/media/hib.6387c53a.jpg",
+    "static/media/lens.2aafff03.jpg": "/static/media/lens.2aafff03.jpg",
+    "static/media/perfil.4f82098c.jpg": "/static/media/perfil.4f82098c.jpg",
+    "static/media/portfolio-bt.708ca501.jpg": "/static/media/portfolio-bt.708ca501.jpg",
+    "static/media/portfolio-bt1.b670384a.jpg": "/static/media/portfolio-bt1.b670384a.jpg",
+    "static/media/portfolio.e02b2f8a.jpg": "/static/media/portfolio.e02b2f8a.jpg",
+    "static/media/portfolioweb.fd6328a6.jpg": "/static/media/portfolioweb.fd6328a6.jpg",
+    "static/media/resume.7b253475.png": "/static/media/resume.7b253475.png",
+    "static/media/resume2.6bcb0d8b.png": "/static/media/resume2.6bcb0d8b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0605945.js",
+    "static/css/2.27dd871e.chunk.css",
+    "static/js/2.b307aef1.chunk.js",
+    "static/css/main.b5e19954.chunk.css",
+    "static/js/main.9e424674.chunk.js"
+  ]
+}
