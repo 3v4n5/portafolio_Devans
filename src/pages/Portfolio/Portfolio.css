@@ -1,0 +1,84 @@
+
+/* Tabs */
+.customTabs .customTabs_item{
+    padding: 0px !important;
+    min-width: 0px !important;
+    margin-right: 25px !important;
+    margin-bottom: 10px;
+    text-transform: inherit !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    outline-width: 0px !important;
+}
+
+.customTabs .active{
+    color: var(--main-color) !important;
+}
+
+/* .tab{
+    margin-bottom: 20px !important;
+} */
+
+
+/* Cards */
+.customCard{
+    height:100%;
+    max-width: 350px;
+   
+    border-radius: 5px;
+    overflow: hidden;
+    outline-width: 0px !important;
+    
+}
+
+.customCard:hover{
+    box-shadow: 5px 10px 20px 1px rgba(167, 167, 167, 0.493) !important;
+}
+
+.customCard .customCard_image{
+    height: 170px !important;
+    overflow: hidden !important;
+}
+
+.customCard .customCard_image:hover{
+    transform: scale(1.2) !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.customCard .customCard_title{
+    font-weight: 550;
+}
+
+.customCard .customCard_caption{
+    color: gray !important;
+    font-weight: 400;
+}
+
+/* Dialog */
+
+.projectDialog .projectDialog_image{
+    max-height: 350px !important;
+    width: 100% !important ;
+    object-fit: cover !important;
+    object-position: center center !important;
+}
+.projectDialog .projectDialog_description{
+    margin-top: 10px !important;
+}
+.projectDialog .projectDialog_actions{
+    justify-content: center !important;
+    margin-bottom: 10px !important;
+}
+.projectDialog .projectDialog_icon{
+    color: darkslategray !important;
+    margin: 0px 12px !important;
+    cursor: pointer !important;
+}
+
+.projectDialog .projectDialog_icon:hover{
+    color: var(--main-color) !important;
+}
+
+.projectDialog .projectDialog_icon > .MuiSvgIcon-root{
+    font-size: 25px !important;
+}

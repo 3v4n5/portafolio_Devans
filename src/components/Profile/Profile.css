@@ -1,0 +1,150 @@
+
+
+.profile{
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    width: 100%;
+    display: inline-block;
+}
+
+.profile_name{
+    line-Height: 18px;
+    padding: 20px;
+}
+
+.profile_name .name{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile_name .title{
+    font-size: 13px;
+    color: #777;
+}
+
+.profile_image{
+    margin-top: -20px;
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    justify-content: center !important;
+}
+
+.profile_image img{
+   /*  width: 100%; */
+   height: 300px !important;
+   width: 270px !important;
+   padding: 5px;
+}
+
+/* Information */
+.profile_information{
+    top: 0;
+    left: 0;
+    margin: -40px 10px 30px;
+}
+
+.profile_information .timeline .timeline_content{
+    margin-top: 2px;
+    margin-bottom: 12px !important;
+}
+
+.timelineItem_text{
+    font-size: 13.5px !important;
+    color: #787878 !important;
+    font-weight: 400 !important;
+    
+}
+
+.timelineItem_text a{
+    text-decoration: none;
+    color: #787878 !important;
+}
+
+.timelineItem_text a:hover{
+    color: var(--main-color) !important;
+}
+
+.timelineItem_text span{
+    color: black;
+    font-weight: 500;
+}
+
+.timelineItem{
+    min-height: 10px !important;
+}
+
+.profile .button_container{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile .button_container a{
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+
+    .timelineItem .timeline_content{
+        display: flex  !important;
+        justify-content: center  !important;
+        align-items: center  !important;
+    }
+
+    
+    .profile_name .name{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .profile_name .title{
+        font-size: 15px;
+        color: #777;
+        text-align: center;
+    }
+
+    .profile_image{
+        display: flex;
+    }
+
+    .profile_image img{
+       height: 400px !important;
+       width: 400px !important;
+       justify-content: center !important;
+    }
+
+    
+  }
+
+
+
+  @media (max-width: 600px){
+
+    .profile_name .name{
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .profile_name .title{
+        font-size: 13px;
+        color: #777;
+        text-align: left;
+    }
+
+    .profile_image img{
+        /*  width: 100%; */
+        height: 350px !important;
+        width: 370px !important;
+        justify-content: flex-start !important;
+     }
+     .timelineItem .timeline_content{
+        display: flex  !important;
+        justify-content: flex-start !important;
+    }
+  }
